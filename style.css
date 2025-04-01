@@ -3,3 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+#mainpage {
+    display: grid;
+    outline: 1px solid red;
+    grid-template-columns: min(20%) 80%;
+}
+
