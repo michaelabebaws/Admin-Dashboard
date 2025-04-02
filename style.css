@@ -10,3 +10,21 @@
     grid-template-columns: min(20%) 80%;
 }
 
+h2, h3 {
+    display: grid;
+
+}
+
+img {
+    width: 25px;
+    height: 25px;
+}
+
+.textrow{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    align-items: center;
+}
+h3 {
+    font-size: 1.3rem;
+}
