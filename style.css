@@ -53,16 +53,35 @@ input {
     border: 1px solid rgb(226, 232, 240);
     border-radius: 10px;
     height: 20px;
+    width: 90%;
 }
 
 .nav {
     display: grid;
     align-items: center;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr auto;
+    grid-template-rows: 50px;
+    align-items: center;
     outline: 1px red solid;
-
+    padding-right: 80px;
+    padding-left: 40px;
 }
 
 #bell, #search{
     filter: invert(0%);
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.firsthead {
+    display: grid;
+    grid-template-columns: 5px 1fr;
+    align-items: center;
+    gap: 50px;
+}
+
+.secondhead {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 50px 50px auto;
 }
