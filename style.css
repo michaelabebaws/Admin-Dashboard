@@ -130,12 +130,17 @@ main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 50px repeat(3, 1fr);
+    background-color: rgb(222 227 235);
 }
 
 main > div {
+    display: grid;
+    align-items: center;
     padding-left: 20px;
 }
 
 main > div + div {
+    display: grid;
+    align-items: center;
     text-align: center;
 }
