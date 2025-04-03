@@ -42,10 +42,10 @@ img {
 
 /* side finished, font size and svg scale adjustment left */
 
-.uppergrid {
+
+.uppergrid, .main{
     display: grid;
-    grid-template-rows: 30% 80px 1fr;
-    outline: 1px red solid;
+    grid-template-rows: 100px 1fr;
 }
 
 input {
@@ -53,7 +53,7 @@ input {
     border: 1px solid rgb(226, 232, 240);
     border-radius: 10px;
     height: 20px;
-    width: 90%;
+    width: 80%;
 }
 
 .nav {
@@ -84,4 +84,58 @@ input {
     display: grid;
     align-items: center;
     grid-template-columns: 50px 50px auto;
+}
+
+/* first nav finished */
+
+.nav-two {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+}
+
+.thridhead {
+    display: grid;
+    grid-template-columns: 3rem auto;
+    align-items: center;
+    padding-left: 40px;
+
+}
+
+.span {
+    grid-column: 2;
+    align-items: center;
+}
+
+button {
+    height: 35px;
+    width: 80px;
+    background-color: rgba(37, 146, 209, 0.97);
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgba(37, 146, 209, 0.97);
+    border-radius: 50px;
+}
+
+.fourthhead {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    align-items: center;
+    padding-top: 5px;
+}
+
+/*   */
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 50px repeat(3, 1fr);
+}
+
+main > div {
+    padding-left: 20px;
+}
+
+main > div + div {
+    text-align: center;
 }
