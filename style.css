@@ -129,7 +129,7 @@ button {
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px repeat(3, 1fr);
+    grid-template-rows: 50px repeat(3, 1fr) 50px;
     background-color: rgb(222 227 235);
 }
 
