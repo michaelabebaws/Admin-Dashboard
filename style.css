@@ -62,7 +62,7 @@ input {
     grid-template-columns: 2fr auto;
     grid-template-rows: 50px;
     align-items: center;
-    outline: 1px red solid;
+    /* outline: 1px red solid; */
     padding-right: 80px;
     padding-left: 40px;
 }
@@ -144,6 +144,7 @@ main > div + div {
     grid-column: 3;
     align-items: center;
     text-align: center;
+
 }
 
 .item1 {
@@ -153,34 +154,67 @@ main > div + div {
     border-radius: 10px;
     background-color: whitesmoke;
     margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+
 }
 
 .item2 {
     grid-row: 3;
     grid-column: 1;
-    outline: 3px solid red;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
 
 .item3 {
     grid-row: 4;
     grid-column: 1;
-    outline: 3px solid blue;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
 
 .item4 {
     grid-row: 2;
     grid-column: 2;
-    outline: 3px solid rgb(255, 0, 242);
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
 
 .item5 {
     grid-row: 3;
     grid-column: 2;
-    outline: 3px solid rgb(28, 185, 212);
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
 
 .item6 {
     grid-row: 4;
     grid-column: 2;
-    outline: 3px solid blue;
+    background-color: whitesmoke;
+    border: 2px solid whitesmoke;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
 }
