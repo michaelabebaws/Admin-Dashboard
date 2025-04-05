@@ -156,7 +156,9 @@ main > div + div {
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
-
+    border-left: 6px solid #f4b400;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 .item2 {
@@ -168,7 +170,6 @@ main > div + div {
     margin-right: 20px;
     margin-bottom: 10px;
     border-radius: 10px;
-
 }
 
 .item3 {
@@ -224,4 +225,16 @@ main > div + div {
     justify-content: end;
     padding-right: 20px;
     gap: 20px;
+}
+
+main > div > p{
+    font-size: 0.9rem;
+    font-weight: 100;
+    font-family: 'roboto';
+    text-align: start;
+}
+
+h4 {
+    font-size: 1rem;
+    text-align: start;
 }
